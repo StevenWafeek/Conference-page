@@ -64,6 +64,12 @@ const projectDetails = [
       description: 'The “Ultramarathon Man”, Ran 3,000 Miles Across the Country with Live! with Regis and Kelly’s “Run Across America” in 2011',
       featuredImage: "./images/dean-karnazes-2018.jpg" ,
       technologies: 'titled I Am Bolt, was released on November 28, 2016 in United Kingdom.',
+    }, 
+    {
+      name: 'Gwen Jorgensen',
+      description: 'American Professional Triathlete, Olympic Champion',
+      featuredImage: "./images/Gwen_Jorgensen.jpg",
+      technologies: 'titled I Am Bolt, was released on November 28, 2016 in United Kingdom.',
     },
 ];
 const root = document.getElementById('speakers-ul');

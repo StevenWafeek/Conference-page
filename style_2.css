@@ -9,10 +9,15 @@ body {
     height: fit-content;
   }
   @media screen and (max-width: 767px) {
+    .upperhead{
+      display: none;
+    }
     .header-menu {
         display: none;
       }
-    
+    #DeskIcon{
+      display: none;
+    }
       .header-menu.open {
         width: 155%;
         height: 669px;
@@ -100,6 +105,9 @@ header nav {
   color: #EC4327;
   padding: 125px 5% 0;
 }
+.first-headline hr{
+display: none;
+}
 .first-headline p{
     font-size: 20px;
 }
@@ -182,6 +190,9 @@ letter-spacing: -0.03em;
 color: #838383;
 margin-bottom: 30px;
 
+}
+#desktop-content{
+    display: none;
 }
 .Subcontent div{
   height: 140px;
@@ -276,4 +287,297 @@ color: #FFFFFF
   letter-spacing: -0.01em;
   color: #3B3E45;
 }
+.disktop-img{
+  display: none;
+}
+#desktop-p{
+  display: none;
+}
+  }
+  @media screen and (min-width: 768px) {
+
+    .upperhead{
+            display: flex;
+            background-color: #3E3E3E;
+            height: 30px;
+            flex-direction: row;
+            width: 100%;
+            justify-content: flex-end;
+            flex-wrap: nowrap;
+        }
+        .upperhead div{
+            width: 40%;
+        display: flex;
+        justify-content: space-around;
+        }
+        .upperhead a{
+            color: #fff;
+            text-decoration: none;
+            margin-top: 2px;
+        }
+    
+        header {
+          display: flex;
+          width: 100%;
+          height: 80px;
+          background-color: #fff;
+          align-items: center;
+          justify-content: space-around;
+          flex-direction: row-reverse;
+        }
+      
+        header nav {
+          width: 100%;
+          height: 48px;
+          display: flex;
+          justify-content: flex-end;
+          background-color: #fff;
+        }
+        .burger{
+            display: none;
+        }
+        .close{
+            display: none;
+        }
+      
+    .logo {
+    width: 72%;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 155px;
+    }
+      
+    .logo a {
+    width: 100%;
+    margin-left: 24px;
+    background-color: #fff;
+    color: #5464f8;
+    text-decoration: none;
+    }
+    .logo img{
+        width: 234px;
+    }
+    .header-menu{
+    width: 74%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    }
+    .header-menu a{
+        display: flex;
+        text-decoration: blink;
+        flex-wrap: nowrap;
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 17px;
+        color: #868686;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #DeskIcon{
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        color: #EC4327;
+        border: 5px solid #ec4327;
+        padding: 2%;
+    }
+    .headline{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      background-image: url(./images/pngtree-outdoor-sports-running-prismsatic-background-image_270074.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      gap: 29px;
+  }
+  .first-headline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 29px;
+  }
+  .first-headline hr{
+    width: 9%;
+    margin: 10px;
+    border: 1px solid #A04038;
+  }
+  .first-headline h1{
+      font-size: 44px;
+      background: -webkit-linear-gradient(142deg,#ff3300 35%,#610000 70%, #ff5e00 35%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: #72484800;
+      font-weight: 900;
+      margin-top: 124px;
+  }
+  .first-headline p{
+display: none;
+  }
+  .main-content{
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #515151;
+    width: 71%;
+    margin-left: 5%;
+    background-color: #fff;
+    padding: 3%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+  
+  .contact-us{
+    height: 122px;
+    padding: 30px 41px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-us p{
+    font-weight: 700;
+  font-size: 12px;
+  line-height: 25px;
+  color: #7A7A7A;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  }
+  .contact-us a{
+    font-weight: 800;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  text-decoration-line: underline;
+  color: #5F5F5F;
+  }
+  .Subcontent h3{
+    font-weight: 700;
+  font-size: 30px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #2C2C2C;
+  }
+   hr{
+    width: 2%;
+    margin: 20px 0;
+    border: 1px solid #A04038;
+  }
+  .Subcontent p{
+display: none;
+  
+  }
+  #desktop-content{
+    font-weight: 700;
+  font-size: 12px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #838383;
+  margin-bottom: 30px;
+  width: 55%;
+  }
+  .Subcontent div{
+    height: 140px;
+    padding: 10px;
+    width: 47%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border: 3px solid #FAFAFA;
+  }
+  .Subcontent div > img{
+    width: 70%;
+  
+  }
+  .last-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    margin-top: -27px;
+    padding: 20px;
+  }
+  .last-content h3{
+    font-weight: 700;
+  font-size: 30px;
+
+  }
+  .last-content p{
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  .content-img{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    background-color: #fff;
+    height: 100%;
+  
+  }
+  .content-img img{
+    width: 45%;
+    margin: 15px 0;
+    height: 207px;
+}
+  
+  .Subcontent{
+    height: 100%;
+    padding: 5%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  
+  }
+  .footer-first{
+    display: none;
+  }
+  .footer-second{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 3%;
+    background-color: #2E2E2E;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .footer-second div{
+    width: 61%;
+  }
+  .footer-second img{
+    width: 30%;
+    height: 10%;
+    margin-top: 29px;
+  }
+  .footer-second p{
+    width: 52%;
+    height: 10%;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #fff;
+    margin: 0 8%;
+  }
+  .mobile-img{
+    display: none;
+  }
+
   }
