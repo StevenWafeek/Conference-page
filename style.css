@@ -138,7 +138,7 @@ body {
     font-weight: 400;
     font-size: 15px;
     line-height: 17px;
-    color: #515151;
+    color: #272a31;
   }
 
   .second-headline {
@@ -146,7 +146,7 @@ body {
   }
 
   .second-headline h2 {
-    color: #595959;
+    color: #272a31;
     font-weight: 700;
     font-size: 20px;
     letter-spacing: -0.02em;
@@ -156,7 +156,7 @@ body {
     font-weight: 700;
     font-size: 13px;
     letter-spacing: -0.02em;
-    color: #868686;
+    color: #272a31c7;
   }
 
   .programs {
@@ -230,7 +230,7 @@ body {
     display: flex;
     align-items: center;
     letter-spacing: -0.05em;
-    color: #000;
+    color: #272a31;
   }
 
   .feature-speakers hr {
@@ -274,7 +274,7 @@ body {
     display: flex;
     align-items: center;
     letter-spacing: -0.06em;
-    color: #000;
+    color: #272a31;
   }
 
   .speakers-list img {
@@ -291,6 +291,7 @@ body {
     display: flex;
     align-items: center;
     letter-spacing: -0.05em;
+    color: #272a31;
   }
 
   .feature-speakers button {
