@@ -49,11 +49,11 @@ body {
     left: 7%;
     line-height: 13px;
   }
-  #myProgram{
+
+  #myProgram {
     font-size: 55px;
     color: #ec5242;
     font-weight: 900;
-
   }
 
   header {
@@ -104,7 +104,7 @@ body {
   .logo img {
     display: none;
   }
-  
+
   .headline {
     background-image: url(./images/fotor_2023-4-17_18_37_45.jpg);
     background-position: center;
@@ -219,7 +219,6 @@ body {
     justify-content: center;
     background-color: #fff;
     border: 1px solid #d3d3d3;
-
   }
 
   .footer-second img {
@@ -335,7 +334,7 @@ body {
     flex-wrap: nowrap;
   }
 
-  .upperhead img{
+  .upperhead img {
     width: 19px;
     height: 20px;
     margin-top: 5px;
