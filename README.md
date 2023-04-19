@@ -136,7 +136,7 @@ Clone this repository to your desired folder:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://github.com/StevenWafeek/Conference-page/)
+- [Live Demo Link]( https://stevenwafeek.github.io/Conference-page/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
